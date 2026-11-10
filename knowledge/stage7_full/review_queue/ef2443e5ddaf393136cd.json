@@ -1,0 +1,43 @@
+{
+  "url": "https://www.teletalk.com.bd/en/vas/teleflix",
+  "title": "Teletalk Bangladesh Ltd - TELEFLIX",
+  "text": "Download MyTeletalk App\nx\nTELEFLIX\nTELEFLIX is streaming based service which is designed to cater different genre of bangla contents (song, movie, drama, short film) to end user. Now the people of Bangladesh will find the solid taste of bangali entertainment in their smart phones. From classic to modern, from jazz to normal all desi entertainment will be at finger tip.\nIt is a subscription based streaming service that offers HD quality bangla video content. Video content includes movie, drama, short film, HD movie trailer, video song, fashion shows, health shows, teaser etc.\nUser Interface\nUser subscribes to the service via. USSD, SMS & APP/WAP/WEB\nOnce subscribed, the subscriber browsing the app will get direct access to the content\nContent\nTeleflix will support below contents\nMusic Video\nMovies\nDrama\nDocumentary\nTeleflim\nService URL & short code\nURL:\nhttp://teleflix.com.bd\nShort code: 9494\nActivation:\nChoosing proper option from APP/WAP/WEB SMS Activation: START FLIX to 9494 USSD Activation:\n*9494*1#\n(future plan)\nDeactivation\nChoosing proper option from APP/WAP/WEB SMS Deactivation: STOP FLIX to 9494 USSD Deactivation:\n*9494*2#\n(future plan)\nTariff\nSubscription Model\nCharge(Without VAT, SD & SC)\nCharge(With VAT, SD & SC )\nValidity (in days)\nMonthly\n30\n41.70\n30\nWeekly\n10\n13.90\n7\nDaily\n2\n2.78\n1\nAfter downloading APPS, all subscriber will get 15 days free trial offer on first log in.\nNo timeline will be applicable for first time free trial offer.\nSubscriber will not avail free trial offer if he/she subscribes the service through SMS/ USSD.\nPackage wise browsing charge shall be applicable.\nCopyright\n©\nTeletalk\nSitemap\nPrivacy Policy\nPopular Searches\nBondho Sim Offer\nInternet Pack\nPackage\nPrepaid",
+  "links": [
+    "https://www.teletalk.com.bd/en/sitemap",
+    "https://www.teletalk.com.bd/en/privacy-policy",
+    "https://www.teletalk.com.bd/en/vas/teleflix",
+    "https://www.teletalk.com.bd/en/offer/special-offer/closed-sim-offer-2019",
+    "https://www.teletalk.com.bd/en/internet/regular-data-packs",
+    "https://www.teletalk.com.bd/en/voice"
+  ],
+  "tables": [
+    [
+      [
+        "Subscription Model",
+        "Charge(Without VAT, SD & SC)",
+        "Charge(With VAT, SD & SC )",
+        "Validity (in days)"
+      ],
+      [
+        "Monthly",
+        "30",
+        "41.70",
+        "30"
+      ],
+      [
+        "Weekly",
+        "10",
+        "13.90",
+        "7"
+      ],
+      [
+        "Daily",
+        "2",
+        "2.78",
+        "1"
+      ]
+    ]
+  ],
+  "sha256": "43db88cb543b578eee2f153f23ea4aa148d296f9a84521c0034fcba054c1b5aa",
+  "fetched_at_utc": "2026-11-01T21:10:39+00:00"
+}

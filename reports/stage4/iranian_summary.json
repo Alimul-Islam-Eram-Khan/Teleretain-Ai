@@ -1,0 +1,90 @@
+{
+  "track": "iranian",
+  "data_source": "UCI Iranian churn (not Teletalk)",
+  "dataset_split_explained": "validation only (sampled with random seed 42)",
+  "sample_size": 160,
+  "best_model": "random_forest",
+  "classification_threshold_locked_from_stage3": 0.48,
+  "shap_method": "TreeExplainer (scikit-learn Random Forest)",
+  "shap_output_space": "probability",
+  "shap_baseline": 0.15749840749840746,
+  "global_mean_absolute_contributions": [
+    {
+      "feature": "categorical__Status_1",
+      "mean_absolute_shap": 0.051628135603491374
+    },
+    {
+      "feature": "categorical__Status_2",
+      "mean_absolute_shap": 0.048940136526530974
+    },
+    {
+      "feature": "categorical__Complains_0",
+      "mean_absolute_shap": 0.03623269637678141
+    },
+    {
+      "feature": "categorical__Complains_1",
+      "mean_absolute_shap": 0.033439175929901296
+    },
+    {
+      "feature": "numeric__Frequency of use",
+      "mean_absolute_shap": 0.02872572826828394
+    },
+    {
+      "feature": "numeric__Seconds of Use",
+      "mean_absolute_shap": 0.025357054928189005
+    },
+    {
+      "feature": "numeric__Subscription Length",
+      "mean_absolute_shap": 0.024496777490623206
+    },
+    {
+      "feature": "numeric__Customer Value",
+      "mean_absolute_shap": 0.016236269977874702
+    },
+    {
+      "feature": "numeric__Frequency of SMS",
+      "mean_absolute_shap": 0.01394445099826409
+    },
+    {
+      "feature": "numeric__Call Failure",
+      "mean_absolute_shap": 0.012724635518014473
+    },
+    {
+      "feature": "numeric__Distinct Called Numbers",
+      "mean_absolute_shap": 0.011431895598758844
+    },
+    {
+      "feature": "numeric__Age Group",
+      "mean_absolute_shap": 0.009485755878812589
+    },
+    {
+      "feature": "numeric__Age",
+      "mean_absolute_shap": 0.0070073520124781866
+    },
+    {
+      "feature": "numeric__Charge Amount",
+      "mean_absolute_shap": 0.0043226541079500105
+    },
+    {
+      "feature": "categorical__Tariff Plan_2",
+      "mean_absolute_shap": 0.00031317675009377916
+    },
+    {
+      "feature": "categorical__Tariff Plan_1",
+      "mean_absolute_shap": 0.000245678334914787
+    }
+  ],
+  "local_examples": {
+    "churn": "iranian_local_churn.json",
+    "non_churn": "iranian_local_non_churn.json"
+  },
+  "notes": [
+    "The selected models and Stage 3 decision thresholds were not retrained or changed.",
+    "SHAP attributions explain the model, not causality.",
+    "Categorical features were one-hot encoded: each resulting column has a separate contribution.",
+    "Explanations are on the processed feature scale, not the original data units.",
+    "IBM XGBoost SHAP sums in log-odds and must be converted through sigmoid to get churn probability.",
+    "Predictions are NOT for real Teletalk customers.",
+    "No test-set labels or probabilities are used in this explanatory report."
+  ]
+}

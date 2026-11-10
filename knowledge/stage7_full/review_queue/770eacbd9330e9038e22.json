@@ -1,0 +1,27 @@
+{
+  "url": "https://www.teletalk.com.bd/en/vas/bondhu-shon",
+  "title": "Teletalk Bangladesh Ltd - Bondhu Shondhan",
+  "text": "Bondhu Shondhan\nBondhu Shondhan\nis a subscription based SMS Chat service which offers you unlimited browsing of other users profile, exchange messages with other users of the service, create chat-rooms, Communication is anonymous so don’t worry about intrusive calls or bothersome messages from other chat users in the future.\nHow to use Bondhu Shondhan\nDial *16480# to register in the system. Then follow these steps:\nChoose your gender, once you select you will be registered\nAfter registration, you will enter the main service menu\nEnter the chat\nRelogging\nSign out\nLanguage\nInfo\nEnter the chat\nAfter selecting 1 (Enter the chat), you will receive a list of subscribers, who are ready for chatting.\nFor Example:\nYou - F22. Choose the partner:\nM22\nM32\nM21\nM22\nMore\nAfter choosing the partner, you will receive USSD-answer and SMS from *16480# number with the following information.\nYou can start chatting with M32. Send SMS to 16480 and your partner will see your message!” From here every message you send to 16480 will be forwarder to your chat partner.\nLeave the chat\nIn order to leave the chat you have to dial *16480#\nThe following information will be displayed in the response menu:\nYou are in the chat with M32. 1. Leave the chat”\nchoose 1 to leave the chat.\nDeactivate the service\nTo deactivate the service you have to dial *16480# and select 3 (Sheba Bebosta) Deactivation), then press 2 (subscription bondho korun)\nTariff\nPlan\nDaily\nWeekly\nMonthly\nAmount\n2\n12\n50\n15% VAT, 20% Supplementary Duty & 1% Surcharge applicable on above tariff.\nAuto-renewal applicable.",
+  "links": [],
+  "tables": [
+    [
+      [
+        "Plan",
+        "Daily",
+        "Weekly",
+        "Monthly"
+      ],
+      [
+        "Amount",
+        "2",
+        "12",
+        "50"
+      ],
+      [
+        "15% VAT, 20% Supplementary Duty & 1% Surcharge applicable on above tariff. Auto-renewal applicable."
+      ]
+    ]
+  ],
+  "sha256": "158ec72fd457f72f38e2aa7f92966370548f864e18d8b59c7fbe1486e2192480",
+  "fetched_at_utc": "2026-11-01T21:10:58+00:00"
+}

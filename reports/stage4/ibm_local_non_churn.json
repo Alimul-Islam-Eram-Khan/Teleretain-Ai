@@ -1,0 +1,199 @@
+{
+  "track": "ibm",
+  "data_source": "IBM fictional public benchmark (not Teletalk)",
+  "selected_model": "xgboost",
+  "probability_churn": 0.0889115259051323,
+  "decision_threshold": 0.31,
+  "predicted_class": 0,
+  "shap_output_space": "log_odds",
+  "shap_base_value": -1.0324499607086182,
+  "additive_output": -2.326998277218081,
+  "feature_contributions": [
+    {
+      "feature": "categorical__Contract_Month-to-month",
+      "shap_value": 0.4636554718017578
+    },
+    {
+      "feature": "categorical__InternetService_Fiber optic",
+      "shap_value": -0.33629530668258667
+    },
+    {
+      "feature": "categorical__OnlineSecurity_No",
+      "shap_value": -0.2837052345275879
+    },
+    {
+      "feature": "numeric__MonthlyCharges",
+      "shap_value": -0.2674516439437866
+    },
+    {
+      "feature": "categorical__TechSupport_No",
+      "shap_value": -0.22050786018371582
+    },
+    {
+      "feature": "categorical__PaperlessBilling_No",
+      "shap_value": -0.2040858417749405
+    },
+    {
+      "feature": "categorical__OnlineBackup_No",
+      "shap_value": -0.129216730594635
+    },
+    {
+      "feature": "categorical__PaymentMethod_Electronic check",
+      "shap_value": -0.1271211802959442
+    },
+    {
+      "feature": "categorical__MultipleLines_No",
+      "shap_value": -0.12470242381095886
+    },
+    {
+      "feature": "categorical__Contract_Two year",
+      "shap_value": 0.08983790874481201
+    },
+    {
+      "feature": "numeric__TotalCharges",
+      "shap_value": -0.05921903997659683
+    },
+    {
+      "feature": "categorical__StreamingMovies_Yes",
+      "shap_value": -0.045765139162540436
+    },
+    {
+      "feature": "categorical__Dependents_No",
+      "shap_value": 0.028726276010274887
+    },
+    {
+      "feature": "categorical__InternetService_No",
+      "shap_value": -0.027692707255482674
+    },
+    {
+      "feature": "categorical__PaperlessBilling_Yes",
+      "shap_value": -0.025467097759246826
+    },
+    {
+      "feature": "categorical__SeniorCitizen_0",
+      "shap_value": -0.02543460763990879
+    },
+    {
+      "feature": "categorical__StreamingTV_Yes",
+      "shap_value": -0.02254665456712246
+    },
+    {
+      "feature": "categorical__PaymentMethod_Bank transfer (automatic)",
+      "shap_value": 0.022533200681209564
+    },
+    {
+      "feature": "categorical__Dependents_Yes",
+      "shap_value": 0.010808971710503101
+    },
+    {
+      "feature": "categorical__DeviceProtection_No",
+      "shap_value": -0.008615734986960888
+    },
+    {
+      "feature": "categorical__StreamingMovies_No",
+      "shap_value": 0.0064341421239078045
+    },
+    {
+      "feature": "categorical__InternetService_DSL",
+      "shap_value": -0.005190257448703051
+    },
+    {
+      "feature": "categorical__PaymentMethod_Mailed check",
+      "shap_value": 0.005100953858345747
+    },
+    {
+      "feature": "categorical__StreamingTV_No",
+      "shap_value": 0.0045083374716341496
+    },
+    {
+      "feature": "categorical__MultipleLines_Yes",
+      "shap_value": -0.00442108977586031
+    },
+    {
+      "feature": "categorical__SeniorCitizen_1",
+      "shap_value": -0.004105218220502138
+    },
+    {
+      "feature": "categorical__PhoneService_No",
+      "shap_value": -0.003347629914060235
+    },
+    {
+      "feature": "categorical__PaymentMethod_Credit card (automatic)",
+      "shap_value": 0.0026945604477077723
+    },
+    {
+      "feature": "categorical__Partner_No",
+      "shap_value": -0.0025346274487674236
+    },
+    {
+      "feature": "categorical__OnlineBackup_Yes",
+      "shap_value": -0.001994535094127059
+    },
+    {
+      "feature": "categorical__OnlineSecurity_Yes",
+      "shap_value": 0.0017321909544989467
+    },
+    {
+      "feature": "categorical__Contract_One year",
+      "shap_value": -0.001524212653748691
+    },
+    {
+      "feature": "categorical__gender_Female",
+      "shap_value": 0.0010858592577278614
+    },
+    {
+      "feature": "categorical__gender_Male",
+      "shap_value": -0.0007683491567149758
+    },
+    {
+      "feature": "categorical__TechSupport_Yes",
+      "shap_value": 0.000555311911739409
+    },
+    {
+      "feature": "numeric__tenure",
+      "shap_value": -0.0002556789549998939
+    },
+    {
+      "feature": "categorical__DeviceProtection_Yes",
+      "shap_value": -0.000252699654083699
+    },
+    {
+      "feature": "categorical__StreamingMovies_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__StreamingTV_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__OnlineSecurity_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__TechSupport_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__DeviceProtection_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__OnlineBackup_No internet service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__Partner_Yes",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__MultipleLines_No phone service",
+      "shap_value": 0.0
+    },
+    {
+      "feature": "categorical__PhoneService_Yes",
+      "shap_value": 0.0
+    }
+  ],
+  "disclaimer": "SHAP describes this model's prediction; not a causal statement, not a Teletalk customer prediction.",
+  "validation_row_index": 7
+}

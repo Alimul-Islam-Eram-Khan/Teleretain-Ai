@@ -1,0 +1,143 @@
+{
+  "track": "ibm",
+  "data_source": "IBM fictional public benchmark (not Teletalk)",
+  "training_rows": 4930,
+  "validation_rows": 1056,
+  "test_rows": 1057,
+  "input_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "transformed_feature_count": 46,
+  "raw_dataset_sha256_from_stage2": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "candidate_models": [
+    {
+      "model": "logistic_regression",
+      "threshold": 0.26,
+      "precision": 0.5076923076923077,
+      "recall": 0.825,
+      "f1": 0.6285714285714286,
+      "roc_auc": 0.8452756811487483,
+      "pr_auc_average_precision": 0.630688463618646,
+      "brier_score": 0.1366875876581392,
+      "confusion_matrix": [
+        [
+          552,
+          224
+        ],
+        [
+          49,
+          231
+        ]
+      ]
+    },
+    {
+      "model": "random_forest",
+      "threshold": 0.32,
+      "precision": 0.5465994962216625,
+      "recall": 0.775,
+      "f1": 0.6410635155096012,
+      "roc_auc": 0.8348881627393225,
+      "pr_auc_average_precision": 0.6156795058327933,
+      "brier_score": 0.14087545180254818,
+      "confusion_matrix": [
+        [
+          596,
+          180
+        ],
+        [
+          63,
+          217
+        ]
+      ]
+    },
+    {
+      "model": "xgboost",
+      "threshold": 0.31,
+      "precision": 0.5423728813559322,
+      "recall": 0.8,
+      "f1": 0.6464646464646465,
+      "roc_auc": 0.8507893041237115,
+      "pr_auc_average_precision": 0.6507315543160994,
+      "brier_score": 0.1339053213596344,
+      "confusion_matrix": [
+        [
+          587,
+          189
+        ],
+        [
+          56,
+          224
+        ]
+      ]
+    }
+  ],
+  "selection_rule": "Highest validation average precision (AP/PR-AUC); tie-break ROC-AUC, F1",
+  "threshold_rule": "Max validation F1 over 0.10..0.90 step 0.01; no economic costs assumed",
+  "best_model_name": "xgboost",
+  "selected_threshold": 0.31,
+  "best_model_file": "models/ibm_best_model.pkl",
+  "best_model_validation_metrics": {
+    "model": "xgboost",
+    "threshold": 0.31,
+    "precision": 0.5423728813559322,
+    "recall": 0.8,
+    "f1": 0.6464646464646465,
+    "roc_auc": 0.8507893041237115,
+    "pr_auc_average_precision": 0.6507315543160994,
+    "brier_score": 0.1339053213596344,
+    "confusion_matrix": [
+      [
+        587,
+        189
+      ],
+      [
+        56,
+        224
+      ]
+    ]
+  },
+  "best_model_final_test_metrics": {
+    "threshold": 0.31,
+    "precision": 0.5427807486631016,
+    "recall": 0.7224199288256228,
+    "f1": 0.6198473282442748,
+    "roc_auc": 0.8372436438346113,
+    "pr_auc_average_precision": 0.6629057993027034,
+    "brier_score": 0.13758018612861633,
+    "confusion_matrix": [
+      [
+        605,
+        171
+      ],
+      [
+        78,
+        203
+      ]
+    ]
+  },
+  "reliability": "Brier score + quantile-bin calibration curve; no post-hoc probability calibration applied",
+  "status_sensitivity_validation_only": null,
+  "limitations": [
+    "Public benchmark/foreign operator performance is NOT Teletalk subscriber performance.",
+    "Split and model/threshold selection use fixed random state 42; no external temporal validation.",
+    "A validation-optimized F1 threshold does not reflect real-world intervention costs."
+  ]
+}

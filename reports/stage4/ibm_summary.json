@@ -1,0 +1,210 @@
+{
+  "track": "ibm",
+  "data_source": "IBM fictional public benchmark (not Teletalk)",
+  "dataset_split_explained": "validation only (sampled with random seed 42)",
+  "sample_size": 160,
+  "best_model": "xgboost",
+  "classification_threshold_locked_from_stage3": 0.31,
+  "shap_method": "XGBoost native exact TreeSHAP pred_contribs",
+  "shap_output_space": "log_odds",
+  "shap_baseline": -1.0324499607086182,
+  "global_mean_absolute_contributions": [
+    {
+      "feature": "categorical__Contract_Month-to-month",
+      "mean_absolute_shap": 0.6422962071374059
+    },
+    {
+      "feature": "numeric__tenure",
+      "mean_absolute_shap": 0.5057858323747496
+    },
+    {
+      "feature": "numeric__MonthlyCharges",
+      "mean_absolute_shap": 0.2807782263189438
+    },
+    {
+      "feature": "categorical__OnlineSecurity_No",
+      "mean_absolute_shap": 0.25741368466988207
+    },
+    {
+      "feature": "categorical__InternetService_Fiber optic",
+      "mean_absolute_shap": 0.18867950029671193
+    },
+    {
+      "feature": "categorical__TechSupport_No",
+      "mean_absolute_shap": 0.1818864071276039
+    },
+    {
+      "feature": "categorical__PaymentMethod_Electronic check",
+      "mean_absolute_shap": 0.15299853102769703
+    },
+    {
+      "feature": "categorical__Contract_Two year",
+      "mean_absolute_shap": 0.1496436506509781
+    },
+    {
+      "feature": "numeric__TotalCharges",
+      "mean_absolute_shap": 0.12927678985288366
+    },
+    {
+      "feature": "categorical__PaperlessBilling_No",
+      "mean_absolute_shap": 0.12657940231729298
+    },
+    {
+      "feature": "categorical__MultipleLines_No",
+      "mean_absolute_shap": 0.11883080461993814
+    },
+    {
+      "feature": "categorical__OnlineBackup_No",
+      "mean_absolute_shap": 0.09286894981050864
+    },
+    {
+      "feature": "categorical__StreamingMovies_Yes",
+      "mean_absolute_shap": 0.07050410765223206
+    },
+    {
+      "feature": "categorical__Dependents_No",
+      "mean_absolute_shap": 0.0595930558280088
+    },
+    {
+      "feature": "categorical__Contract_One year",
+      "mean_absolute_shap": 0.03690555694629438
+    },
+    {
+      "feature": "categorical__SeniorCitizen_0",
+      "mean_absolute_shap": 0.03669097872916609
+    },
+    {
+      "feature": "categorical__gender_Female",
+      "mean_absolute_shap": 0.0290547575274104
+    },
+    {
+      "feature": "categorical__StreamingTV_Yes",
+      "mean_absolute_shap": 0.024728541742661037
+    },
+    {
+      "feature": "categorical__PaperlessBilling_Yes",
+      "mean_absolute_shap": 0.019315627260948532
+    },
+    {
+      "feature": "categorical__MultipleLines_Yes",
+      "mean_absolute_shap": 0.014210630334855524
+    },
+    {
+      "feature": "categorical__Dependents_Yes",
+      "mean_absolute_shap": 0.013149955721746664
+    },
+    {
+      "feature": "categorical__DeviceProtection_No",
+      "mean_absolute_shap": 0.012734888721024618
+    },
+    {
+      "feature": "categorical__StreamingMovies_No",
+      "mean_absolute_shap": 0.012030882170074619
+    },
+    {
+      "feature": "categorical__PaymentMethod_Bank transfer (automatic)",
+      "mean_absolute_shap": 0.008895613825370675
+    },
+    {
+      "feature": "categorical__PaymentMethod_Credit card (automatic)",
+      "mean_absolute_shap": 0.00844374857879302
+    },
+    {
+      "feature": "categorical__InternetService_No",
+      "mean_absolute_shap": 0.008103799098171294
+    },
+    {
+      "feature": "categorical__StreamingTV_No",
+      "mean_absolute_shap": 0.00709890023463231
+    },
+    {
+      "feature": "categorical__PhoneService_No",
+      "mean_absolute_shap": 0.006377887757116696
+    },
+    {
+      "feature": "categorical__PaymentMethod_Mailed check",
+      "mean_absolute_shap": 0.005938343288266879
+    },
+    {
+      "feature": "categorical__TechSupport_Yes",
+      "mean_absolute_shap": 0.005820672841946361
+    },
+    {
+      "feature": "categorical__Partner_No",
+      "mean_absolute_shap": 0.005528643704383285
+    },
+    {
+      "feature": "categorical__gender_Male",
+      "mean_absolute_shap": 0.004750477631023387
+    },
+    {
+      "feature": "categorical__SeniorCitizen_1",
+      "mean_absolute_shap": 0.004647670083068078
+    },
+    {
+      "feature": "categorical__InternetService_DSL",
+      "mean_absolute_shap": 0.003740738878514094
+    },
+    {
+      "feature": "categorical__OnlineBackup_Yes",
+      "mean_absolute_shap": 0.0036242031412257346
+    },
+    {
+      "feature": "categorical__DeviceProtection_Yes",
+      "mean_absolute_shap": 0.00289622858963412
+    },
+    {
+      "feature": "categorical__OnlineSecurity_Yes",
+      "mean_absolute_shap": 0.0016200277701500453
+    },
+    {
+      "feature": "categorical__StreamingMovies_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__StreamingTV_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__OnlineSecurity_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__TechSupport_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__DeviceProtection_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__OnlineBackup_No internet service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__Partner_Yes",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__MultipleLines_No phone service",
+      "mean_absolute_shap": 0.0
+    },
+    {
+      "feature": "categorical__PhoneService_Yes",
+      "mean_absolute_shap": 0.0
+    }
+  ],
+  "local_examples": {
+    "churn": "ibm_local_churn.json",
+    "non_churn": "ibm_local_non_churn.json"
+  },
+  "notes": [
+    "The selected models and Stage 3 decision thresholds were not retrained or changed.",
+    "SHAP attributions explain the model, not causality.",
+    "Categorical features were one-hot encoded: each resulting column has a separate contribution.",
+    "Explanations are on the processed feature scale, not the original data units.",
+    "IBM XGBoost SHAP sums in log-odds and must be converted through sigmoid to get churn probability.",
+    "Predictions are NOT for real Teletalk customers.",
+    "No test-set labels or probabilities are used in this explanatory report."
+  ]
+}

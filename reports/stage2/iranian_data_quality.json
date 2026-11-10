@@ -1,0 +1,81 @@
+{
+  "track": "iranian",
+  "raw_file": "data\\raw\\iranian\\Customer Churn.csv",
+  "raw_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+  "cleaned_rows": 2850,
+  "cleaned_columns": 14,
+  "class_distribution_cleaned": {
+    "0": 2404,
+    "1": 446
+  },
+  "splits": {
+    "train": {
+      "rows": 1998,
+      "class_distribution": {
+        "0": 1684,
+        "1": 314
+      }
+    },
+    "val": {
+      "rows": 423,
+      "class_distribution": {
+        "0": 357,
+        "1": 66
+      }
+    },
+    "test": {
+      "rows": 429,
+      "class_distribution": {
+        "0": 363,
+        "1": 66
+      }
+    }
+  },
+  "feature_columns": [
+    "Call Failure",
+    "Subscription Length",
+    "Charge Amount",
+    "Seconds of Use",
+    "Frequency of use",
+    "Frequency of SMS",
+    "Distinct Called Numbers",
+    "Age Group",
+    "Age",
+    "Customer Value",
+    "Complains",
+    "Tariff Plan",
+    "Status"
+  ],
+  "numeric_columns": [
+    "Call Failure",
+    "Subscription Length",
+    "Charge Amount",
+    "Seconds of Use",
+    "Frequency of use",
+    "Frequency of SMS",
+    "Distinct Called Numbers",
+    "Age Group",
+    "Age",
+    "Customer Value"
+  ],
+  "categorical_columns": [
+    "Complains",
+    "Tariff Plan",
+    "Status"
+  ],
+  "transformed_feature_count": 16,
+  "target": "Churn (0=non-churn, 1=churn)",
+  "preprocessor_fitted_on": "train only",
+  "random_state": 42,
+  "split_method": "StratifiedGroupKFold 20 folds: 14 train, 3 validation, 3 test; grouped by all input features",
+  "checks": {
+    "original_rows": 3150,
+    "exact_duplicates_removed_before_splitting": 300,
+    "same_features_conflicting_label_groups": 14,
+    "rows_in_conflicting_groups_after_exact_deduplication": 28,
+    "conflict_handling": "Preserve both labels; group by complete input feature vector during train/val/test split",
+    "missing_after_numeric_conversion": 0,
+    "source": "UCI Iranian Churn; NOT Teletalk customer data",
+    "status_caution": "Status (active/non-active) will receive leakage-sensitivity analysis during model evaluation."
+  }
+}

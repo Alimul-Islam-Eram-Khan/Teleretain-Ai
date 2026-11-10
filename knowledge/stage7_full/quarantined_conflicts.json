@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "conflicts": [
+    {
+      "subject": "Oporajita 1 GB special data price",
+      "code": "*111*8#",
+      "sources": [
+        {
+          "url": "https://www.teletalk.com.bd/offer/special-offer/data-package",
+          "observed": "feature text mentions Tk 8 and displayed purchase card mentions Tk 9"
+        },
+        {
+          "url": "https://www.teletalk.com.bd/voice/prepaid/oporajita",
+          "observed": "activation first 3 months mentions Tk 9"
+        }
+      ],
+      "reason": "Different prices on a single official page; human review/operator verification required before recommending.",
+      "status": "quarantined"
+    },
+    {
+      "subject": "Emergency balance fee discrepancies",
+      "code": "",
+      "sources": [
+        {
+          "url": "https://www.teletalk.com.bd/voice/emergency-balance",
+          "observed": "Fees for Tk12 / Tk20 and others differ from an alternate official emergency-balance page"
+        },
+        {
+          "url": "https://www.teletalk.com.bd/vas/emergency-balance-service_off",
+          "observed": "Alternate fee schedule differs in VAT/SD/surcharge totals"
+        }
+      ],
+      "reason": "Do not quote a single service fee without human current verification.",
+      "status": "quarantined"
+    },
+    {
+      "subject": "Rate cutter pulse discrepancies",
+      "code": "",
+      "sources": [
+        {
+          "url": "https://teletalk.com.bd/voice/rate-cutter-offer",
+          "observed": "Certain package rows show 10-second pulse"
+        },
+        {
+          "url": "https://teletalk.com.bd/voice/rate-cutter-offers",
+          "observed": "Certain package rows show 1-second pulse"
+        }
+      ],
+      "reason": "Pulse and tariff change across official pages; require current review.",
+      "status": "quarantined"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "track": "ibm",
+  "raw_file": "data\\raw\\ibm\\WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "raw_sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "cleaned_rows": 7043,
+  "cleaned_columns": 21,
+  "class_distribution_cleaned": {
+    "0": 5174,
+    "1": 1869
+  },
+  "splits": {
+    "train": {
+      "rows": 4930,
+      "class_distribution": {
+        "0": 3622,
+        "1": 1308
+      }
+    },
+    "val": {
+      "rows": 1056,
+      "class_distribution": {
+        "0": 776,
+        "1": 280
+      }
+    },
+    "test": {
+      "rows": 1057,
+      "class_distribution": {
+        "0": 776,
+        "1": 281
+      }
+    }
+  },
+  "feature_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "numeric_columns": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "transformed_feature_count": 46,
+  "target": "Churn (0=non-churn, 1=churn)",
+  "preprocessor_fitted_on": "train only",
+  "random_state": 42,
+  "split_method": "Two-stage stratified train_test_split",
+  "checks": {
+    "original_rows": 7043,
+    "original_exact_duplicate_rows": 0,
+    "distinct_customer_ids": 7043,
+    "totalcharges_missing_after_conversion": 11,
+    "totalcharges_missing_strategy": "Train-only median imputation; preserve rows and missingness in split CSVs",
+    "customerID": "retained for split audit; excluded from model features",
+    "source": "IBM public fictional benchmark; NOT Teletalk customer data"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "url": "https://www.teletalk.com.bd/en/isd-call-rate",
+  "title": "Teletalk Bangladesh Ltd - ISD call rate",
+  "text": "Country Name\nCountry Code\nMobile Call Charge (Tk/min)\nPSTN Call Charge (Tk/min)\nAfganistan\n93\n22\n20\nAlaska\n1907\n20\n20\nAlbenia\n355\n24\n16\nAlgeria\n213\n24\n24\nAmerican Samoa\n1684\n21\n30\nAndorra\n376\n22\n16\nAngola\n244\n20\n16\nAnguilla\n1264\n20\n18\nAntigua and Barbuda\n1268\n16\n16\nArgentina\n54\n12\n6",
+  "links": [],
+  "tables": [
+    [
+      [
+        "Country Name",
+        "Country Code",
+        "Mobile Call Charge (Tk/min)",
+        "PSTN Call Charge (Tk/min)"
+      ],
+      [
+        "Afganistan",
+        "93",
+        "22",
+        "20"
+      ],
+      [
+        "Alaska",
+        "1907",
+        "20",
+        "20"
+      ],
+      [
+        "Albenia",
+        "355",
+        "24",
+        "16"
+      ],
+      [
+        "Algeria",
+        "213",
+        "24",
+        "24"
+      ],
+      [
+        "American Samoa",
+        "1684",
+        "21",
+        "30"
+      ],
+      [
+        "Andorra",
+        "376",
+        "22",
+        "16"
+      ],
+      [
+        "Angola",
+        "244",
+        "20",
+        "16"
+      ],
+      [
+        "Anguilla",
+        "1264",
+        "20",
+        "18"
+      ],
+      [
+        "Antigua and Barbuda",
+        "1268",
+        "16",
+        "16"
+      ],
+      [
+        "Argentina",
+        "54",
+        "12",
+        "6"
+      ]
+    ]
+  ],
+  "sha256": "584d95b90e8be7f44e2e34629e701b99eebd8c411d26c24fbef40415afdd22bb",
+  "fetched_at_utc": "2026-11-01T21:10:19+00:00"
+}

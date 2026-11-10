@@ -1,0 +1,4 @@
+# Uses pre-existing Stage 1-8 environment. No new API key or paid services.
+streamlit>=1.35,<2
+plotly>=5.20,<7
+pandas>=2.1,<3

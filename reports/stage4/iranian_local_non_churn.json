@@ -1,0 +1,79 @@
+{
+  "track": "iranian",
+  "data_source": "UCI Iranian churn (not Teletalk)",
+  "selected_model": "random_forest",
+  "probability_churn": 0.0,
+  "decision_threshold": 0.48,
+  "predicted_class": 0,
+  "shap_output_space": "probability",
+  "shap_base_value": 0.15749840749840746,
+  "additive_output": 8.326672684688674e-17,
+  "feature_contributions": [
+    {
+      "feature": "categorical__Status_1",
+      "shap_value": -0.06457035298769144
+    },
+    {
+      "feature": "categorical__Status_2",
+      "shap_value": -0.05389797276377461
+    },
+    {
+      "feature": "categorical__Complains_0",
+      "shap_value": -0.025211609071130767
+    },
+    {
+      "feature": "categorical__Complains_1",
+      "shap_value": -0.02199270069017264
+    },
+    {
+      "feature": "numeric__Frequency of SMS",
+      "shap_value": 0.010827080105248847
+    },
+    {
+      "feature": "numeric__Seconds of Use",
+      "shap_value": 0.009668060954440685
+    },
+    {
+      "feature": "numeric__Call Failure",
+      "shap_value": 0.009156459420492296
+    },
+    {
+      "feature": "numeric__Age Group",
+      "shap_value": -0.0057384457249758285
+    },
+    {
+      "feature": "numeric__Charge Amount",
+      "shap_value": -0.004580032295244613
+    },
+    {
+      "feature": "numeric__Age",
+      "shap_value": -0.003253046548807558
+    },
+    {
+      "feature": "numeric__Distinct Called Numbers",
+      "shap_value": -0.002938970087088765
+    },
+    {
+      "feature": "numeric__Frequency of use",
+      "shap_value": -0.002796086866303279
+    },
+    {
+      "feature": "numeric__Subscription Length",
+      "shap_value": -0.002525131156352574
+    },
+    {
+      "feature": "categorical__Tariff Plan_2",
+      "shap_value": 0.00013942037218409704
+    },
+    {
+      "feature": "numeric__Customer Value",
+      "shap_value": 0.00011073057943920017
+    },
+    {
+      "feature": "categorical__Tariff Plan_1",
+      "shap_value": 0.0001041892613295762
+    }
+  ],
+  "disclaimer": "SHAP describes this model's prediction; not a causal statement, not a Teletalk customer prediction.",
+  "validation_row_index": 2
+}

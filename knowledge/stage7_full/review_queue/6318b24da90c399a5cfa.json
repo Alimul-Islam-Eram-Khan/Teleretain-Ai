@@ -1,0 +1,20 @@
+{
+  "url": "https://www.teletalk.com.bd/en/retailers",
+  "title": "Teletalk Bangladesh Ltd - Retailers",
+  "text": "Barishal\nChittagong\nDhaka\nKhulna\nRajshahi\nRangpur\nSylhet\nMymensingh\nDistrict\nUpazila\nRetailer Name\nRetailer Address\nPropeiter\nTelecharge No",
+  "links": [],
+  "tables": [
+    [
+      [
+        "District",
+        "Upazila",
+        "Retailer Name",
+        "Retailer Address",
+        "Propeiter",
+        "Telecharge No"
+      ]
+    ]
+  ],
+  "sha256": "8f2e284c4a5d5bf2f83992cbaa56458ec6294709b3ba7dd98d8db47f63171d8a",
+  "fetched_at_utc": "2026-11-01T21:11:17+00:00"
+}

@@ -1,0 +1,17 @@
+# Credentials
+.env
+# Python caches and environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# Local datasets, model artifacts and generated output
+data/raw/
+data/processed/
+models/*.pkl
+models/*.joblib
+models/*.json
+# OS and editor
+.DS_Store
+.vscode/

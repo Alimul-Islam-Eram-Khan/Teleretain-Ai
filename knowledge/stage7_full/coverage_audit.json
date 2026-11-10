@@ -1,0 +1,810 @@
+{
+  "source_status": "dated official web snapshot; not proof all live pages were captured",
+  "approved_offers": 73,
+  "reviewed_information_entries": 18,
+  "offer_categories": {
+    "internet": 30,
+    "unlimited_weekend": 7,
+    "combo": 24,
+    "minute": 9,
+    "sms": 3
+  },
+  "source_urls": 16,
+  "quarantined_conflicts": [
+    {
+      "subject": "Oporajita 1 GB special data price",
+      "code": "*111*8#",
+      "sources": [
+        {
+          "url": "https://www.teletalk.com.bd/offer/special-offer/data-package",
+          "observed": "feature text mentions Tk 8 and displayed purchase card mentions Tk 9"
+        },
+        {
+          "url": "https://www.teletalk.com.bd/voice/prepaid/oporajita",
+          "observed": "activation first 3 months mentions Tk 9"
+        }
+      ],
+      "reason": "Different prices on a single official page; human review/operator verification required before recommending.",
+      "status": "quarantined"
+    },
+    {
+      "subject": "Emergency balance fee discrepancies",
+      "code": "",
+      "sources": [
+        {
+          "url": "https://www.teletalk.com.bd/voice/emergency-balance",
+          "observed": "Fees for Tk12 / Tk20 and others differ from an alternate official emergency-balance page"
+        },
+        {
+          "url": "https://www.teletalk.com.bd/vas/emergency-balance-service_off",
+          "observed": "Alternate fee schedule differs in VAT/SD/surcharge totals"
+        }
+      ],
+      "reason": "Do not quote a single service fee without human current verification.",
+      "status": "quarantined"
+    },
+    {
+      "subject": "Rate cutter pulse discrepancies",
+      "code": "",
+      "sources": [
+        {
+          "url": "https://teletalk.com.bd/voice/rate-cutter-offer",
+          "observed": "Certain package rows show 10-second pulse"
+        },
+        {
+          "url": "https://teletalk.com.bd/voice/rate-cutter-offers",
+          "observed": "Certain package rows show 1-second pulse"
+        }
+      ],
+      "reason": "Pulse and tariff change across official pages; require current review.",
+      "status": "quarantined"
+    }
+  ],
+  "discovery": {
+    "attempted": 100,
+    "captured": 94,
+    "failed": [
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/corporate",
+        "reason": "LiveSourceError: Official page has too little readable text (may need JavaScript)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/internet/regular-data-packs",
+        "reason": "LiveSourceError: Official page has too little readable text (may need JavaScript)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/content-bazar",
+        "reason": "LiveSourceError: Official page returned HTTP 404"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/bn/customer-care-center/maps",
+        "reason": "LiveSourceError: Official page has too little readable text (may need JavaScript)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-point/maps",
+        "reason": "LiveSourceError: Official page has too little readable text (may need JavaScript)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-center/others",
+        "reason": "LiveSourceError: Official page has too little readable text (may need JavaScript)"
+      }
+    ],
+    "pending_review": [
+      {
+        "url": "https://www.teletalk.com.bd/en/sitemap",
+        "id": "7e08ac8f4c5d921a7a57",
+        "sha256": "25a3c4a53fab2d6fa5c7e7491d5915986a95394685a2bcf42b4c904b85e47585",
+        "title": "Teletalk Bangladesh Ltd - Sitemap"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en",
+        "id": "0a9eee5980ee3b6259a8",
+        "sha256": "2a64682e65692937b6a0e040655aaf4c1e85fcc98ae6d79e8ed21f086d2c30a2",
+        "title": "Teletalk Bangladesh Ltd - Home"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/internet-offers",
+        "id": "41011272288c5b1baa2b",
+        "sha256": "7486f04f699c97af7f2301c3febda59f75ac9c40497e1126ee42e3f2568ca353",
+        "title": "Teletalk Bangladesh Ltd - Internet Offers"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/voice",
+        "id": "99c837d19b7a445ce14a",
+        "sha256": "7a2d07557a1b437e37e30a9f95b3b3380e0aaa2157919414ed104b3a4e52772b",
+        "title": "Teletalk Bangladesh Ltd - Voice"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/vas",
+        "id": "ba9c9b8c1d6370e718f6",
+        "sha256": "0af89bb156bc97d4dd703c2efdc204f3c93f30f1f3d26ba951f158999a17ffb6",
+        "title": "Teletalk Bangladesh Ltd - Vas"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/explore",
+        "id": "a97f194b34a4c0af6cb5",
+        "sha256": "a93c908924153dc2cdc2fe3c664fd0b47a6fa55a99368c74da42144e526e2b42",
+        "title": "Teletalk Bangladesh Ltd - Explore"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/teletalk-professional-package",
+        "id": "75054edc294a4b06eca1",
+        "sha256": "0364c7327c366159d7365f19f04096b46c4d1e4d8e49cf3e4c2f9c74444e5b60",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Professional Package"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/offer/combo-package",
+        "id": "851c5a91325908f2f35e",
+        "sha256": "11aeb72cb186647985ddc5ee47a493006aa3a04783bebc4b20d8ccfee3a9d696",
+        "title": "Teletalk Bangladesh Ltd - Exclusive Combo Package"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/voice/prepaid/oporajita",
+        "id": "3993bd9e049697139152",
+        "sha256": "32c8fe2dd2e7cefe0043c8f8b440a04106bbe1fbce40c352b8e88fbc58a13b99",
+        "title": "Teletalk Bangladesh Ltd - Oporajita"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/voice/prepaid/mayer-hasi",
+        "id": "2895f927e775cbaddc7b",
+        "sha256": "e022c67242f22a97830e0c32e160ccbaff882850dc0a770795ea04d4962380e8",
+        "title": "Teletalk Bangladesh Ltd - Mayer Hasi"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about-us",
+        "id": "c3f0e5b7dc6f56fc586d",
+        "sha256": "4fdf411a7eadc369c10f4f3d6e71a194f2f1469c620adaade53e00b3bb4cc05a",
+        "title": "Teletalk Bangladesh Ltd - About Us"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/corporate-information",
+        "id": "63e01e9376f9300c5c52",
+        "sha256": "cefe10458e8c730b091c2b103dfe89ecfcb1ccc22048c2a935cfe2640e44b8b4",
+        "title": "Teletalk Bangladesh Ltd - Corporate information"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/corporate-information/csr",
+        "id": "e219d91e3f234a6c8c59",
+        "sha256": "f57f4c54f656d9b20fe549c8f38284613446810c3c87bd119c08cdf9497e606c",
+        "title": "Teletalk Bangladesh Ltd - CSR"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/corporate-information/privacy-policy",
+        "id": "011c028b05213dfb344e",
+        "sha256": "7e30e03fa9d64afdf2b772761d35c84df2938a3b7820cc71b6f8b34dd942578c",
+        "title": "Teletalk Bangladesh Ltd - Privacy Policy"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/corporate-information/board-directors",
+        "id": "b9564750c9e7045bc544",
+        "sha256": "0f4825eca172ef9e2f3fd56ac55612304aa6b0ae68e4fa38ab1837b513b56fed",
+        "title": "Teletalk Bangladesh Ltd - Board of Directors"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/corporate-information/management-information",
+        "id": "cf3b184f1ab0bbef88e6",
+        "sha256": "2a86c997e1ed35d7abfb2eb9d27db45abcf1e6bc42bceecee01d648b98c39386",
+        "title": "Teletalk Bangladesh Ltd - Management Information"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/about/career",
+        "id": "6cea5bf9da57dd9c63fc",
+        "sha256": "40d6195fcfcbb18b0f43efd877bb57727daca599188d6969213ee3374892d218",
+        "title": "Teletalk Bangladesh Ltd - Career"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/others/contact-us",
+        "id": "ba83fd63701d4427a1b5",
+        "sha256": "c2564aa5a8c0053a81fec569140ff01005983c4d152c8beb2144bea66719a113",
+        "title": "Teletalk Bangladesh Ltd - Contact Us"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice",
+        "id": "e82b27fdff7fb8d1ea1d",
+        "sha256": "7a2d07557a1b437e37e30a9f95b3b3380e0aaa2157919414ed104b3a4e52772b",
+        "title": "Teletalk Bangladesh Ltd - Voice"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/gen-z",
+        "id": "87947ce0f1da79229aac",
+        "sha256": "1390b37feb7b7b65a9105bfb1f50c36a337d6c93cdd288c566f171ea3322d643",
+        "title": "Teletalk Bangladesh Ltd - Gen-Z"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/shotoborsho",
+        "id": "576a96f0750bd5e4d7f7",
+        "sha256": "ccf5a578772ae59f5f490b4309df4981d64b1c285f026622f74dfb356a316988",
+        "title": "Teletalk Bangladesh Ltd - Shotoborsho"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/sagotom",
+        "id": "80943f5d45587b2130ec",
+        "sha256": "24881fb2971815be9b7db04913a8ddac220f4cf4640206a3b7a6f9a708d0c66b",
+        "title": "Teletalk Bangladesh Ltd - Sagotom"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/agami",
+        "id": "ab16c3768eb19597ef34",
+        "sha256": "e45d13e0539b74e23778359a03412529e89d24ff9d309b7ab5e7131cb3f30898",
+        "title": "Teletalk Bangladesh Ltd - Agami"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/bornomala",
+        "id": "21442a637b7358fb8853",
+        "sha256": "ef8ffb8927c2316df9f7cee6ea62fb054fb50b6983fc229cf1bc219f4622fe4b",
+        "title": "Teletalk Bangladesh Ltd - Bornomala"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/oporajita",
+        "id": "0bc1c684e2427b83fb64",
+        "sha256": "32c8fe2dd2e7cefe0043c8f8b440a04106bbe1fbce40c352b8e88fbc58a13b99",
+        "title": "Teletalk Bangladesh Ltd - Oporajita"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/mayer-hasi",
+        "id": "e801cecbb1489463a6d3",
+        "sha256": "e022c67242f22a97830e0c32e160ccbaff882850dc0a770795ea04d4962380e8",
+        "title": "Teletalk Bangladesh Ltd - Mayer Hasi"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/youth",
+        "id": "f160b115ed0541b64a67",
+        "sha256": "851783883b9e0563efa439b281d255935453c2241e3c92043543c1f74ffa2794",
+        "title": "Teletalk Bangladesh Ltd - Youth"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/shadheen",
+        "id": "fc5ec47adaac6e6b34d7",
+        "sha256": "71da9a070c02e8e2b3120c0b53c9cbf15e6f55456dcaa5cb71c76baf5fa0f0a0",
+        "title": "Teletalk Bangladesh Ltd - Shadheen"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/prepaid/projonmo",
+        "id": "32a779a0ee72f8ea2f9b",
+        "sha256": "596cc914e3f847335132a4248677df25961e6366323fffd366ed3bf51f7df48e",
+        "title": "Teletalk Bangladesh Ltd - Projonmo"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/postpaid/gravity",
+        "id": "d8f758dffbe3cef65834",
+        "sha256": "0161b0a467737b5c67ef9d779c0f925f1f4834c3feb5e78be7850491bfac429c",
+        "title": "Teletalk Bangladesh Ltd - Gravity"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/corporate/teletalk-corporate",
+        "id": "e2455a15f3b88425e116",
+        "sha256": "4aae3dc647e8d92563521c68a41e76edf86659f42b98a7955d885b59118b3436",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Corporate"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/corporate/corporate-sim-pricing",
+        "id": "ed81918f61ea237f7c81",
+        "sha256": "c663a1c8da862e1fd0c1985431488aed59a3624be26b0613f1aaea1f13ed03e1",
+        "title": "Teletalk Bangladesh Ltd - Corporate SIM Pricing"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/international-roaming/intl-roaming-details",
+        "id": "63900a70a2eda3113438",
+        "sha256": "c7c0f8fa954265f2c863f0ec8735715894beb0d3b9c21b03557e3fbf58cf2693",
+        "title": "Teletalk Bangladesh Ltd - Intl. Roaming Details"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/isd-call-rate",
+        "id": "c1001bf39b5dbc92473b",
+        "sha256": "584d95b90e8be7f44e2e34629e701b99eebd8c411d26c24fbef40415afdd22bb",
+        "title": "Teletalk Bangladesh Ltd - ISD call rate"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/international-roaming/roaming-partner-list",
+        "id": "dfc7fbc18bd562e2aa6e",
+        "sha256": "1e509bac59a0aee93543f1b33a8ac3cc39a1a44c6d278b490f84b7ff3f89ac05",
+        "title": "Teletalk Bangladesh Ltd - Roaming Partner List"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/international-roaming/international-sms",
+        "id": "4e9e95d305d7215e0188",
+        "sha256": "5735990f577fd228b0ba570ee3937d92d97dd642dd7bedf48b18bda04e94ebee",
+        "title": "Teletalk Bangladesh Ltd - International SMS"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/scratch-card-bonus",
+        "id": "ad972ffe34380af3884e",
+        "sha256": "d0b2efd990823393e4aa384f0532eee5b9e21578d46eb5cacb859257bffac163",
+        "title": "Teletalk Bangladesh Ltd - scratch card bonus"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/attractive-close-sim-offer",
+        "id": "3ec26cb6e5b57ccc323b",
+        "sha256": "3ae65617fad08969c7a0057c64575a614e0057ceff474942813049c2efc4abb1",
+        "title": "Teletalk Bangladesh Ltd - New Offer for Inactive subscriber"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/rate-cutter-offers",
+        "id": "4cfb29cbf3e71b07ad84",
+        "sha256": "cb5c2f816da04a85d48eaf4ceeec8fabe5c2dff06300f7d0190ea8f535943800",
+        "title": "Teletalk Bangladesh Ltd - Rate Cutter Offer"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/teleplan",
+        "id": "8b3511b671f580d3e914",
+        "sha256": "d6709bd3b885aca416a66c815b51cc45c08ce02a41b87b893d8b3a0290870beb",
+        "title": "Teletalk Bangladesh Ltd - Teleplan"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/Internet-offers",
+        "id": "c46211c2ce69fbb19dc7",
+        "sha256": "7486f04f699c97af7f2301c3febda59f75ac9c40497e1126ee42e3f2568ca353",
+        "title": "Teletalk Bangladesh Ltd - Internet Offers"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/internet/agami-data-packs",
+        "id": "dc53294e239777906637",
+        "sha256": "b45eeef77d51648ecfcd7496ecada096bd18756b026e19117dc0b1a849715655",
+        "title": "Teletalk Bangladesh Ltd - Agami Data Packs"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/bn/internet/bornomala-data-packs",
+        "id": "435a18fde31889d07a03",
+        "sha256": "44ee1ef54972ebc843f6368e104158f065d7a56bb2819c135fd0970e49bb91bb",
+        "title": "Teletalk Bangladesh Ltd - বর্ণমালা ডাটা প্যাক"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/offer/special-offer/data-package",
+        "id": "eb2959a8a579f157ced3",
+        "sha256": "714162f2cced8dfd8c2102c207d59bfb97b1c3fbc0c921de839f787651507249",
+        "title": "Teletalk Bangladesh Ltd - Oporajita Data Package"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/coverage-map",
+        "id": "7545343fa3a4c2f0160b",
+        "sha256": "caa5a338d15cd039b780021dea8f9c83fb89ac9adbba366c54502e6667d8b2cc",
+        "title": "Teletalk Bangladesh Ltd - Network Coverage Map"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/flash-package-price",
+        "id": "f7b82763452c3067e3bf",
+        "sha256": "5a9764414ab1af8ea935ef80d20bebba750f5eddfa808f4054414d39acc8050b",
+        "title": "Teletalk Bangladesh Ltd - Flash Package price"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/mi-fi-package-price",
+        "id": "7eeeac3e8e057f95e3c8",
+        "sha256": "85559d95d82151596cd24506ae24263ac2bb37bc9310e2a373690e40d6d0db6c",
+        "title": "Teletalk Bangladesh Ltd - Mi-Fi Package price"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/pocket-router-details",
+        "id": "63f44246f3f6acd7e662",
+        "sha256": "cc00180889fb6a4442f4fb7a015ea849be2fed7f202907635cc352950108f357",
+        "title": "Teletalk Bangladesh Ltd - Pocket router details"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/internet-device",
+        "id": "0a8e5f3207dd48ed320e",
+        "sha256": "c6164c29b7c8450993ee59d6f2f290c2cf050bac4e537b3d07cefb4a55ed4c65",
+        "title": "Teletalk Bangladesh Ltd - Internet Device"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas",
+        "id": "d111e022b9b4bb742c77",
+        "sha256": "0af89bb156bc97d4dd703c2efdc204f3c93f30f1f3d26ba951f158999a17ffb6",
+        "title": "Teletalk Bangladesh Ltd - Vas"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/teletune",
+        "id": "7aabcea8ec26c300c8b7",
+        "sha256": "8455fd25860023e73158b241c0b846f35759a706a695de9e838204522f1cb2e9",
+        "title": "Teletalk Bangladesh Ltd - TeleTune"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/emergency-balance-service_off",
+        "id": "6ba9f7d87c44396ed147",
+        "sha256": "28315b5f66dc74b093c5fe522df4061f99f9311c3e612510a7f6e9059a17eff9",
+        "title": "Teletalk Bangladesh Ltd - Emergency Balance Service"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/teleflix",
+        "id": "ef2443e5ddaf393136cd",
+        "sha256": "43db88cb543b578eee2f153f23ea4aa148d296f9a84521c0034fcba054c1b5aa",
+        "title": "Teletalk Bangladesh Ltd - TELEFLIX"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/voice-broadcasting-system-vbs",
+        "id": "8dd788740c9b9dc0ead4",
+        "sha256": "affb974d556e8b58b7f0531267ede7095775c7d1bdbd46c000feb4484b82667f",
+        "title": "Teletalk Bangladesh Ltd - Voice Broadcasting System (VBS)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/missed-call-alert",
+        "id": "5f44896bd408b3e2ec75",
+        "sha256": "26a60d3e9548c0edebe8585e816059c39fe94c646cbe3253b05f6b359751d455",
+        "title": "Teletalk Bangladesh Ltd - Missed Call Alert"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/balance-transfer",
+        "id": "711ecd11aea0952eea07",
+        "sha256": "4a38314c8608c48e7054c393cca8af5eea5210d99e229cda24fc10f4df281790",
+        "title": "Teletalk Bangladesh Ltd - Balance Transfer"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/call-management-services/call-block",
+        "id": "cdaff93c25cb62a63775",
+        "sha256": "5940da71e8a91168457404f6108c0bfd34649ed027844fa6f1083f958f46ca96",
+        "title": "Teletalk Bangladesh Ltd - Call Block"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/call-management-services/call-forwardingdiverting",
+        "id": "0c7725011b5d45d69cb6",
+        "sha256": "a7d4463a69624f712fe376662991921f6e0e3efafbd5fc5b82f85c31ce6f8504",
+        "title": "Teletalk Bangladesh Ltd - Call Forwarding/diverting"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/call-management-services/call-waitingholding",
+        "id": "7bf4ff9005ae31505e60",
+        "sha256": "b9ac2a7780a7757af06c1e5d142bda4ad6ae50a7fdb7ce648dd98764ebdabaab",
+        "title": "Teletalk Bangladesh Ltd - Call Waiting/Holding"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/teletalk-fun-zone",
+        "id": "531900dadbef723321fd",
+        "sha256": "2b53e48e3558f57257895d00cac01d2a8f8d223cbe341abb1dde04799bc41953",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Fun Zone"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/teletalk-mobile-tv",
+        "id": "1f59c6e22b1bce7ef57a",
+        "sha256": "4657848c90ba11e7145fd49974ee8265df91df54486fde1313de35fc7af76e32",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Mobile TV"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/etv-news",
+        "id": "28ebbc2bc63746ee3eb4",
+        "sha256": "c2b3a614f9a28f4a849f8b006c00d3e8fe0d6c0d500e3c4c586e7c7bb4c24f25",
+        "title": "Teletalk Bangladesh Ltd - ETV News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/rtv-news",
+        "id": "5bc2047ef0c088ea9c58",
+        "sha256": "79026c89be886b46aefdba241d7b001f3cf6b7049a6f6a403766a16225267a08",
+        "title": "Teletalk Bangladesh Ltd - RTV News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/maasranga-news",
+        "id": "53993f7ce3c427fd89e1",
+        "sha256": "c6e095b686143b49e4f819ba1411b43032cdfdcbdf9033788cd1563367cfb601",
+        "title": "Teletalk Bangladesh Ltd - Maasranga News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/independent-news",
+        "id": "6aa6ecba57ea7fa7cd4d",
+        "sha256": "0c62f24c58952f0328144eea61282c57435e04030cd1b4ebd025ca994f3585a4",
+        "title": "Teletalk Bangladesh Ltd - Independent News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/atn-bangla-news",
+        "id": "ef8f6621115d81a69d5a",
+        "sha256": "f5e2d97f09098f5dbca95d0528c91e72a5ba04df06b7a458dab8834725d65787",
+        "title": "Teletalk Bangladesh Ltd - ATN Bangla News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/news-updates/prothom-alo-news",
+        "id": "bb37e0d1756980fa53c6",
+        "sha256": "69a050d7d5f68e0831160ff17c5fc9d46916d12f59136362f47de1325c88e96e",
+        "title": "Teletalk Bangladesh Ltd - Prothom Alo News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/teletalk-audio-book",
+        "id": "9e75e01446197ecf0b97",
+        "sha256": "7e5e82dee48f3111a1edea58bf2871f28bedeb5f69e1f41b4a8ad0c4029ea9ec",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Audio Book"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/hotobakbackground-music",
+        "id": "13e2c6218822abae57b8",
+        "sha256": "36aee8a117804236ef9e47d3059ae50a4855e2051a9aa90eb817ced926a58c9f",
+        "title": "Teletalk Bangladesh Ltd - Hotobak(Background Music)"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/games/teletalk-game",
+        "id": "c04b26a8626f785b637f",
+        "sha256": "3ff71540771b6c21ee1b7c2007b933f8bd5ab1cd6b16c7fbb2fdc68f84655d8b",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Game"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/games/ea-games",
+        "id": "d588888cb242c5531266",
+        "sha256": "af19709c7fb7cd7b36f553877da52d90a43957990f4aff4e11b69828c2d7a256",
+        "title": "Teletalk Bangladesh Ltd - EA Games"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/games/teletalk-game-zone",
+        "id": "b8383031a834295de7db",
+        "sha256": "92854b7099a35206553ab02fb0c114b31420ee6623ed1caa3805423db9985065",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Game Zone"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/bondhu-shon",
+        "id": "770eacbd9330e9038e22",
+        "sha256": "158ec72fd457f72f38e2aa7f92966370548f864e18d8b59c7fbe1486e2192480",
+        "title": "Teletalk Bangladesh Ltd - Bondhu Shondhan"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/happy-cell-service",
+        "id": "ca90eac0af1e44dea91b",
+        "sha256": "6a1ff85b7e0c1d35f0fc65a08848858d65e90f1bb40358c7930952d7cccae6a9",
+        "title": "Teletalk Bangladesh Ltd - Happy Cell Service"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/clubz",
+        "id": "99779774ca654da8eb69",
+        "sha256": "20fe58dd68c5ed8e25fb1ec87b503ffa7b4915a1631b1b29afec69b3428cbc57",
+        "title": "Teletalk Bangladesh Ltd - ClubZ"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/bdtube",
+        "id": "99b8f251926b688f32e3",
+        "sha256": "3cbab178b2421fe9ddfa567e84b2f28c7a0ffd9b7ab535eb01d31adf934d22f0",
+        "title": "Teletalk Bangladesh Ltd - BdTube"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/sweet-talk",
+        "id": "6afff799075ec95fa6ca",
+        "sha256": "ebd37799a96928b061369ddd677f946e0beef37eb8cada2f9ac8a42b8d960418",
+        "title": "Teletalk Bangladesh Ltd - Sweet Talk"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/love-tips",
+        "id": "22f8762ecd238ce40210",
+        "sha256": "47769b9fa406c85fda8b3ae70b8fd88956cc2a71f2335f4e0f258378e9f8b071",
+        "title": "Teletalk Bangladesh Ltd - Love Tips"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/sports",
+        "id": "fa5b3c1b81933913bf3d",
+        "sha256": "3743ff1f7a3cdf8b887b5b69f8cd7cfe1b8557748008583a60d1f3030908a424",
+        "title": "Teletalk Bangladesh Ltd - Sports"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/taroka-news",
+        "id": "3208aa9b704154f7f9d6",
+        "sha256": "2363b765733ca29c30e813141b37dcf328468f303a14594b14592e5d3f79806a",
+        "title": "Teletalk Bangladesh Ltd - Taroka News"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/bollywood-gossip",
+        "id": "5a4d74a7d7c280ea430d",
+        "sha256": "8c26f9008a15099fc24cdb619fc8de29626698258078df962e83de10dd0f57c5",
+        "title": "Teletalk Bangladesh Ltd - Bollywood Gossip"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/vas/entertainment-one/fashion-lifestyle",
+        "id": "2940bf504d036f49d6b8",
+        "sha256": "32a2c7cf0b79d81ddfe4187dd9024e636cafe13aec36fea314e9e6c0be0752a9",
+        "title": "Teletalk Bangladesh Ltd - Fashion & Lifestyle"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/offer",
+        "id": "c260eea0df5a64fea070",
+        "sha256": "c79762cc0edb4607f7dfb4f9a5847eb466dc22dc2f10c95519bf4e5004682eec",
+        "title": "Teletalk Bangladesh Ltd - Bundle Offers"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care",
+        "id": "01f23c92a569fc387afe",
+        "sha256": "32d61d19ce3e61de60d3d418f111c8647a40e0c78e841509b563606ad229aca4",
+        "title": "Teletalk Bangladesh Ltd - Customer Care"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-center",
+        "id": "842d7ff64b1b6d5f3d52",
+        "sha256": "e6bbccea5e772fd3aaebc74e5443a64277688723db799d3d74da93a9b999777d",
+        "title": "Teletalk Bangladesh Ltd - Customer Care Center"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-point",
+        "id": "a6294f11c940766c0627",
+        "sha256": "85c162a20f207f407f291d9082e24e0707fab77c8c8dca7bfe34fdda94e9c242",
+        "title": "Teletalk Bangladesh Ltd - Customer Care Point"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-center/call-center",
+        "id": "1583dca78b45f4d35d41",
+        "sha256": "246bbe4179e320bcfd9bbfadbe0e0b951886cbcef1162640de0415f28f8a97e2",
+        "title": "Teletalk Bangladesh Ltd - Call Center"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-center/others/teletalk-service-point",
+        "id": "1b10f7c8eff097914a8e",
+        "sha256": "59216d97b43b564a62e32ce83b67b302348504dd60c1fe344b85e40733f03364",
+        "title": "Teletalk Bangladesh Ltd - Teletalk Service Point"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/retailers",
+        "id": "6318b24da90c399a5cfa",
+        "sha256": "8f2e284c4a5d5bf2f83992cbaa56458ec6294709b3ba7dd98d8db47f63171d8a",
+        "title": "Teletalk Bangladesh Ltd - Retailers"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/customer-care-center/others/paywell-recharge-point",
+        "id": "63090fe52e997746a407",
+        "sha256": "849656a8805f1077b079a8217db9c772dcf8603649a2ca224e0331c49316b9d9",
+        "title": "Teletalk Bangladesh Ltd - Paywell Recharge Point"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/explore",
+        "id": "6a996050acf0ff8b531a",
+        "sha256": "a93c908924153dc2cdc2fe3c664fd0b47a6fa55a99368c74da42144e526e2b42",
+        "title": "Teletalk Bangladesh Ltd - Explore"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/voice/international-roaming/international-roaming-map",
+        "id": "dccaa8bf4d091b88cb35",
+        "sha256": "a1efdb3ca85c796511466358ff776cec549fab7baa0ac5a9d6b45359fb1bb03b",
+        "title": "Teletalk Bangladesh Ltd - International Roaming Map"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/bn",
+        "id": "be1f50da9970c885a9e1",
+        "sha256": "0891da845bbe9b2a766587d81cd53b868f86deb2c8db74401ccacc7d1abcf97c",
+        "title": "Teletalk Bangladesh Ltd - Home"
+      },
+      {
+        "url": "https://www.teletalk.com.bd/en/tenders",
+        "id": "b94195fb84226daecdec",
+        "sha256": "d8d0461927b4fc79b664c83d024d7ca31bbf94449697fac45794fdd6e47739c4",
+        "title": "Teletalk Bangladesh Ltd - Tenders"
+      }
+    ],
+    "frontier_left": 26,
+    "limit_hit": true,
+    "complete": false,
+    "note": "Captured pages are UNVERIFIED PENDING REVIEW; cannot be served or recommended."
+  },
+  "review_queue_count": 94,
+  "scope": [
+    {
+      "area": "internet",
+      "description": "regular internet and bonus data",
+      "structured_offers": 30,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "combo",
+      "description": "data, voice and SMS bundles",
+      "structured_offers": 24,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "minute",
+      "description": "minute bundles",
+      "structured_offers": 9,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "sms",
+      "description": "SMS bundles",
+      "structured_offers": 3,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "unlimited_weekend",
+      "description": "unlimited-validity, uninterrupted, weekend",
+      "structured_offers": 7,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "sim_eligibility",
+      "description": "Agami, Bornomala, Gen-Z, Oporajita, Mayer Hasi, professional, closed SIM",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 8,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "prepaid_profiles",
+      "description": "other prepaid variants and migration policies",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "postpaid",
+      "description": "postpaid products and billing",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "corporate",
+      "description": "corporate packs and tariff",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "roaming",
+      "description": "international roaming and ISD",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "vas",
+      "description": "VAS, emergency balance, balance transfer, call management",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "faq",
+      "description": "FAQs including 4G and online service support",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "customer_care",
+      "description": "care centres and complaints",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "devices",
+      "description": "modems, Mi-Fi, eSIM and routers",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "teleplan",
+      "description": "dynamic customized bundle builder",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "promotions",
+      "description": "limited campaign, recharge, rate-cutter and scratch bonuses",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "network",
+      "description": "coverage and connectivity",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 0,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    },
+    {
+      "area": "other",
+      "description": "other official pages present in Teletalk sitemap",
+      "structured_offers": 0,
+      "reviewed_reference_pages": 1,
+      "complete": false,
+      "note": "Comprehensiveness cannot be certified without complete crawl and manual page-by-page review."
+    }
+  ]
+}

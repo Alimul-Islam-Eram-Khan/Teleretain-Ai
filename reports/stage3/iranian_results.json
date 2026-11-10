@@ -1,0 +1,181 @@
+{
+  "track": "iranian",
+  "data_source": "UCI Iranian churn (not Teletalk)",
+  "training_rows": 1998,
+  "validation_rows": 423,
+  "test_rows": 429,
+  "input_features": [
+    "Call Failure",
+    "Subscription Length",
+    "Charge Amount",
+    "Seconds of Use",
+    "Frequency of use",
+    "Frequency of SMS",
+    "Distinct Called Numbers",
+    "Age Group",
+    "Age",
+    "Customer Value",
+    "Complains",
+    "Tariff Plan",
+    "Status"
+  ],
+  "transformed_feature_count": 16,
+  "raw_dataset_sha256_from_stage2": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+  "candidate_models": [
+    {
+      "model": "logistic_regression",
+      "threshold": 0.31,
+      "precision": 0.6951219512195121,
+      "recall": 0.8636363636363636,
+      "f1": 0.7702702702702703,
+      "roc_auc": 0.9592988710635769,
+      "pr_auc_average_precision": 0.8331010564975495,
+      "brier_score": 0.056359470018280955,
+      "confusion_matrix": [
+        [
+          332,
+          25
+        ],
+        [
+          9,
+          57
+        ]
+      ]
+    },
+    {
+      "model": "random_forest",
+      "threshold": 0.48,
+      "precision": 0.9344262295081968,
+      "recall": 0.8636363636363636,
+      "f1": 0.8976377952755905,
+      "roc_auc": 0.9748323571852986,
+      "pr_auc_average_precision": 0.9497242909748674,
+      "brier_score": 0.028966872563550093,
+      "confusion_matrix": [
+        [
+          353,
+          4
+        ],
+        [
+          9,
+          57
+        ]
+      ]
+    },
+    {
+      "model": "xgboost",
+      "threshold": 0.49,
+      "precision": 0.9193548387096774,
+      "recall": 0.8636363636363636,
+      "f1": 0.890625,
+      "roc_auc": 0.9800101858925389,
+      "pr_auc_average_precision": 0.9371006915353145,
+      "brier_score": 0.033271610736846924,
+      "confusion_matrix": [
+        [
+          352,
+          5
+        ],
+        [
+          9,
+          57
+        ]
+      ]
+    }
+  ],
+  "selection_rule": "Highest validation average precision (AP/PR-AUC); tie-break ROC-AUC, F1",
+  "threshold_rule": "Max validation F1 over 0.10..0.90 step 0.01; no economic costs assumed",
+  "best_model_name": "random_forest",
+  "selected_threshold": 0.48,
+  "best_model_file": "models/iranian_best_model.pkl",
+  "best_model_validation_metrics": {
+    "model": "random_forest",
+    "threshold": 0.48,
+    "precision": 0.9344262295081968,
+    "recall": 0.8636363636363636,
+    "f1": 0.8976377952755905,
+    "roc_auc": 0.9748323571852986,
+    "pr_auc_average_precision": 0.9497242909748674,
+    "brier_score": 0.028966872563550093,
+    "confusion_matrix": [
+      [
+        353,
+        4
+      ],
+      [
+        9,
+        57
+      ]
+    ]
+  },
+  "best_model_final_test_metrics": {
+    "threshold": 0.48,
+    "precision": 0.9464285714285714,
+    "recall": 0.803030303030303,
+    "f1": 0.8688524590163934,
+    "roc_auc": 0.9695508807079054,
+    "pr_auc_average_precision": 0.9316162387008416,
+    "brier_score": 0.032220831673781,
+    "confusion_matrix": [
+      [
+        360,
+        3
+      ],
+      [
+        13,
+        53
+      ]
+    ]
+  },
+  "reliability": "Brier score + quantile-bin calibration curve; no post-hoc probability calibration applied",
+  "status_sensitivity_validation_only": {
+    "purpose": "Diagnostic validation-only comparison; not proof of temporal leakage or causality",
+    "algorithm": "random_forest",
+    "full_model_validation": {
+      "model": "random_forest",
+      "threshold": 0.48,
+      "precision": 0.9344262295081968,
+      "recall": 0.8636363636363636,
+      "f1": 0.8976377952755905,
+      "roc_auc": 0.9748323571852986,
+      "pr_auc_average_precision": 0.9497242909748674,
+      "brier_score": 0.028966872563550093,
+      "confusion_matrix": [
+        [
+          353,
+          4
+        ],
+        [
+          9,
+          57
+        ]
+      ]
+    },
+    "without_status_validation": {
+      "threshold": 0.39,
+      "precision": 0.8769230769230769,
+      "recall": 0.8636363636363636,
+      "f1": 0.8702290076335878,
+      "roc_auc": 0.978630846277905,
+      "pr_auc_average_precision": 0.9290355692464592,
+      "brier_score": 0.03739836604572479,
+      "confusion_matrix": [
+        [
+          349,
+          8
+        ],
+        [
+          9,
+          57
+        ]
+      ]
+    },
+    "difference_in_validation_average_precision_full_minus_no_status": 0.020689,
+    "notes": "Same training/validation rows. Neither model is fitted on test; test metrics for selected full model are recorded separately."
+  },
+  "limitations": [
+    "Public benchmark/foreign operator performance is NOT Teletalk subscriber performance.",
+    "Split and model/threshold selection use fixed random state 42; no external temporal validation.",
+    "A validation-optimized F1 threshold does not reflect real-world intervention costs."
+  ]
+}

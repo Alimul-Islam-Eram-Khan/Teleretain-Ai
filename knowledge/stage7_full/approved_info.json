@@ -1,0 +1,150 @@
+{
+  "schema_version": 2,
+  "snapshot_compiled_on": "2026-11-02",
+  "pages": [
+    {
+      "id": "sim-gen-z",
+      "title": "Gen-Z SIM and promotions",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/en/voice/prepaid/gen-z",
+      "checked_on": "2026-11-02",
+      "body": "New eligible users born between 1997 and 2012 with NID may obtain Gen-Z SIM. Existing eligible users may access promotional offers through My Teletalk app or *111# but do not migrate to the Gen-Z base tariff and do not receive new-SIM startup benefit. For a new customer, SIM is 150 BDT. Do not promise current eligibility without operator verification."
+    },
+    {
+      "id": "sim-agami",
+      "title": "Agami education SIM",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/voice/prepaid/agami",
+      "checked_on": "2026-11-02",
+      "body": "Special education SIM with SMS registration via 16222 using SSC board, roll and year. Teletalk sends ID and OTP; applicant presents ID, OTP, NID and SSC admit card/certificate/marksheet at customer care. SIM cost on page Tk 100; one-time startup bonus requires recharge Tk 100 after activation. Exact student qualification must be checked on the official page."
+    },
+    {
+      "id": "sim-bornomala",
+      "title": "Bornomala SIM for students",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/voice/prepaid/bornomala",
+      "checked_on": "2026-11-02",
+      "body": "Student-focused Teletalk Bornomala SIM. Registration by SMS to 16222 with SSC details. Customer care requests ID, OTP and NID after registration. SIM price listed Tk 200; first Tk 50 recharge after activation triggers the described one-time startup bundle. Official conditions required."
+    },
+    {
+      "id": "sim-oporajita",
+      "title": "Oporajita women customer SIM",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/voice/prepaid/oporajita",
+      "checked_on": "2026-11-02",
+      "body": "Oporajita package is only for women customers. Migration requires customer-care contact. Special data offer is limited to the first three months after package activation; current 1GB special price differs across official pages and is quarantined. SIM price shown Tk 200. Avoid confirming subscriber eligibility from self-declaration alone."
+    },
+    {
+      "id": "sim-mayer-hasi",
+      "title": "Mayer Hasi stipend mother SIM",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/voice/prepaid/mayer-hasi",
+      "checked_on": "2026-11-02",
+      "body": "Mayer Hasi is a free CSR SIM for mothers of primary education stipend recipients; not for ordinary sale. Tk 29 recharge triggers 60 minutes plus 1 GB data, 15-day validity. Special 1GB Tk 9 first-three-month offer described on official page. Migration uses MH plus stipend account information to 556; never request account or NID numbers in chatbot."
+    },
+    {
+      "id": "sim-professional",
+      "title": "Professional Package eligibility",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/en/voice/prepaid/teletalk-professional-package",
+      "checked_on": "2026-11-02",
+      "body": "Teletalk Professional Package for approved professionals with association ID and registration number; applicant presents evidence and NID at customer care or corporate wing. Each professional only one SIM per NID. Professional-only data and combo packs should not be recommended as generally eligible."
+    },
+    {
+      "id": "sim-closed",
+      "title": "Closed SIM reactivation eligibility",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/en/voice/prepaid/closed-sim-offer-promotion",
+      "checked_on": "2026-11-02",
+      "body": "Closed SIM offers are only for selected inactive customers under operator-side criteria. Eligibility must be checked using official *155*desired mobile number# procedure or official website; this application does not check subscriber eligibility. Two offers shown, each usable only once during campaign, no unused benefit carry-forward."
+    },
+    {
+      "id": "service-teleplan",
+      "title": "Teleplan custom bundle",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/en/teleplan",
+      "checked_on": "2026-11-02",
+      "body": "Teleplan is an online package builder where users choose internet, voice, SMS and validity. Price is dynamically calculated by official interface. This project does not invent or calculate a Teleplan price; verify it on the official page."
+    },
+    {
+      "id": "service-vass",
+      "title": "Value-added Teletalk services",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/vas",
+      "checked_on": "2026-11-02",
+      "body": "The official Teletalk VAS section lists emergency balance, balance transfer, missed-call alerts, call management, TeleTune, bill payment, entertainment and related services. Each service has its own conditions; visit linked official detail pages to verify tariffs and activation."
+    },
+    {
+      "id": "site-navigation",
+      "title": "Official Teletalk site map and categories",
+      "category": "directory",
+      "source_url": "https://www.teletalk.com.bd/en/sitemap",
+      "checked_on": "2026-11-02",
+      "body": "The official sitemap lists prepaid packages, postpaid, corporate, roaming, offer sections, Internet special and regular data packages, modem, VAS, customer care centres and FAQs. A site link alone does not establish current offer eligibility or activation."
+    },
+    {
+      "id": "sim-shotoborsho",
+      "title": "Shotoborsho prepaid SIM and recharge benefits",
+      "category": "sim_eligibility",
+      "source_url": "https://www.teletalk.com.bd/voice/prepaid/shotoborsho",
+      "checked_on": "2026-11-02",
+      "body": "Shotoborsho official page describes a new SIM one-time Tk100 recharge benefit paid into balance with monthly bundle components over three months. Rate cutter mentioned on this page: Tk24 3 days and Tk44 7 days. Some existing Teletalk customers can receive other Shotoborsho offers, but the new SIM Tk100 bonus is excluded. Details must be checked for new versus existing customer status."
+    },
+    {
+      "id": "postpaid-gravity",
+      "title": "Gravity postpaid connection",
+      "category": "postpaid",
+      "source_url": "https://teletalk.com.bd/voice/postpaid/gravity",
+      "checked_on": "2026-11-02",
+      "body": "Gravity is Teletalk postpaid. Official page lists 60 paisa/minute and ten-second pulse, Bangladesh SMS rates, security deposit and connection details. New connection price and credit limit are described there, but payment/eligibility must be verified before activation."
+    },
+    {
+      "id": "service-emergency",
+      "title": "Emergency balance eligibility and loan process",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/voice/emergency-balance",
+      "checked_on": "2026-11-02",
+      "body": "Emergency balance on request by dialing *1122# or sending Loan to 1122. Loan availability is based on operator scoring and recharge/account history; customer-specific approval is not possible in this app. Service fees differ across official legacy and current-looking pages, so fee amounts are quarantined pending verification."
+    },
+    {
+      "id": "service-rate-cutter",
+      "title": "Rate cutter voice offers",
+      "category": "service",
+      "source_url": "https://teletalk.com.bd/voice/rate-cutter-offers",
+      "checked_on": "2026-11-02",
+      "body": "Rate cutter promotions vary by package (Shadheen, Projonmo, Youth, Shotoborsho, Agami and Bornomala). Required recharge and validity vary and are published on official pages. Pulse descriptions differ between official rate-cutter listings; check exact current terms before quoting any rate."
+    },
+    {
+      "id": "service-customer-care",
+      "title": "Teletalk customer care channels",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/en/sitemap",
+      "checked_on": "2026-11-02",
+      "body": "Teletalk official sitemap links to customer care centre, customer care points, call centres and service points. Subscribers should use current official contact information for SIM eligibility, migration or purchase confirmation; this app does not read operator systems."
+    },
+    {
+      "id": "service-roaming",
+      "title": "International roaming overview",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/en/sitemap",
+      "checked_on": "2026-11-02",
+      "body": "The official sitemap lists international roaming details, partner list, ISD rates and international SMS. This reviewed directory entry does not assert current roaming destinations or tariff; consult linked official service pages for exact current charges."
+    },
+    {
+      "id": "service-esim",
+      "title": "eSIM and device availability directory",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/en",
+      "checked_on": "2026-11-02",
+      "body": "Official Teletalk home page references an eSIM section and a router offering. Availability, compatible devices, replacement process and fees must be verified on dedicated current service pages."
+    },
+    {
+      "id": "service-faq",
+      "title": "4G FAQ and public service documentation",
+      "category": "service",
+      "source_url": "https://www.teletalk.com.bd/en/sitemap",
+      "checked_on": "2026-11-02",
+      "body": "Teletalk public sitemap lists FAQ sections including 4G FAQ and online-class FAQ, as well as data packages and contact services. A FAQ title alone does not establish a correct technical answer; review the linked page before quoting it."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "url": "https://www.teletalk.com.bd/en/vas/emergency-balance-service_off",
+  "title": "Teletalk Bangladesh Ltd - Emergency Balance Service",
+  "text": "Download MyTeletalk App\nx\nEmergency Balance Service\nThe Emergency Balance Service allows Teletalk subscribers to get loans and use mobile operator’s services with zero or low balance. The service is available through SMS and USSD.\nThe Emergency Balance service uses the scoring feature to decide whether to give a loan to the subscriber who requests it or not. The subscriber may request the maximum loan available or request a specific loan amount by sending a corresponding command. Subscribers are charged a service fee for using the Emergency Balance service.\nLoan Amount and Service Fees\nSMS/USSD\nOr\nRequest\nLoan Amount, BDT\nService Fee\nDial *1122#\nOr\nSMS “\nLoan\n” and send to 1122\nThe service uses the scoring to calculate the loan amount available to the subscriber\nFree\nDial *1122*10#\nOr\nSMS “\n10\n” and send to 1122\n10\n0\nDial *1122*12#\nOr\nSMS “\n12\n” and send to 1122\n12\n1.60 (1.2 BDT service fee + 0.40 BDT SC, SD & VAT)\nDial *1122*20#\nOr\nSMS “\n20\n” and send to 1122\n20\n2.67 (2 BDT service fee + 0.67 BDT SC, SD & VAT)\nDial *1122*30#\nOr\nSMS “\n30\n” and send to 1122\n30\n4.00 (3 BDT service fee + 1.00 BDT SC, SD & VAT)\nDial *1122*50#\nOr\nSMS “\n50\n” and send to 1122\n50\n6.66 (5 BDT service fee + 1.66 BDT SC, SD & VAT)\nDial *1122*0#\nOr\nSMS “\nLoan\ninfo\n” and send to 1122\nCheck for the subscriber’s current debt\nFree\n* SMS Charge for requesting loan to\n1122\nshort code is free.\nEligibility Criteria\nLoan Bands (BDT)\nMin Days (days)\nService fees (excluding VAT+SD+SC) BDT\nAverage recharge/ Month(BDT)\nRecovery Attempts\n10\n180\n0\n160\n240\nOn recharge\n12\n180\n1.2\n160\n240\nOn recharge\n20\n180\n2\n160\n240\nOn recharge\n30\n180\n3\n240\n340\nOn recharge\n50\n180\n5\n400\n400+\nOn recharge\nCopyright\n©\nTeletalk\nSitemap\nPrivacy Policy\nPopular Searches\nBondho Sim Offer\nInternet Pack\nPackage\nPrepaid",
+  "links": [
+    "https://www.teletalk.com.bd/en/sitemap",
+    "https://www.teletalk.com.bd/en/privacy-policy",
+    "https://www.teletalk.com.bd/en/vas/emergency-balance-service_off",
+    "https://www.teletalk.com.bd/en/offer/special-offer/closed-sim-offer-2019",
+    "https://www.teletalk.com.bd/en/internet/regular-data-packs",
+    "https://www.teletalk.com.bd/en/voice"
+  ],
+  "tables": [
+    [
+      [
+        "SMS/USSD Or Request",
+        "Loan Amount, BDT",
+        "Service Fee"
+      ],
+      [
+        "Dial *1122# Or SMS “ Loan ” and send to 1122",
+        "The service uses the scoring to calculate the loan amount available to the subscriber",
+        "Free"
+      ],
+      [
+        "Dial *1122*10# Or SMS “ 10 ” and send to 1122",
+        "10",
+        "0"
+      ],
+      [
+        "Dial *1122*12# Or SMS “ 12 ” and send to 1122",
+        "12",
+        "1.60 (1.2 BDT service fee + 0.40 BDT SC, SD & VAT)"
+      ],
+      [
+        "Dial *1122*20# Or SMS “ 20 ” and send to 1122",
+        "20",
+        "2.67 (2 BDT service fee + 0.67 BDT SC, SD & VAT)"
+      ],
+      [
+        "Dial *1122*30# Or SMS “ 30 ” and send to 1122",
+        "30",
+        "4.00 (3 BDT service fee + 1.00 BDT SC, SD & VAT)"
+      ],
+      [
+        "Dial *1122*50# Or SMS “ 50 ” and send to 1122",
+        "50",
+        "6.66 (5 BDT service fee + 1.66 BDT SC, SD & VAT)"
+      ],
+      [
+        "Dial *1122*0# Or SMS “ Loan info ” and send to 1122",
+        "Check for the subscriber’s current debt",
+        "Free"
+      ]
+    ],
+    [
+      [
+        "Loan Bands (BDT)",
+        "Min Days (days)",
+        "Service fees (excluding VAT+SD+SC) BDT",
+        "Average recharge/ Month(BDT)",
+        "Recovery Attempts"
+      ],
+      [
+        "10",
+        "180",
+        "0",
+        "160",
+        "240",
+        "On recharge"
+      ],
+      [
+        "12",
+        "180",
+        "1.2",
+        "160",
+        "240",
+        "On recharge"
+      ],
+      [
+        "20",
+        "180",
+        "2",
+        "160",
+        "240",
+        "On recharge"
+      ],
+      [
+        "30",
+        "180",
+        "3",
+        "240",
+        "340",
+        "On recharge"
+      ],
+      [
+        "50",
+        "180",
+        "5",
+        "400",
+        "400+",
+        "On recharge"
+      ]
+    ]
+  ],
+  "sha256": "28315b5f66dc74b093c5fe522df4061f99f9311c3e612510a7f6e9059a17eff9",
+  "fetched_at_utc": "2026-11-01T21:10:38+00:00"
+}

@@ -1,0 +1,7 @@
+# Install after Stage 1-6 deps; no paid search, hosting or proprietary scraper needed.
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+pydantic>=2.8,<3
+pytest>=8,<10
+# To retain the optional reviewed-document FAISS index from Stage 7 v2:
+# python -m pip install -r requirements-stage7-full.txt
